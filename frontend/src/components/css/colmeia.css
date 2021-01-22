@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+#abelhinha {
+    width: 250px;
+    position: absolute;
+    bottom: 3vh;
+    z-index: 1;
+}
+
+#fundo-aqui {
+    background-color: #B24BE2;
+    width: 800px;
+    height: 1000px;
+    border-radius: 40px 40px 0 0;
+    color: white;
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 50px;
+    padding-top: 30px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
+
+#menor-texto {
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 80px;
+}

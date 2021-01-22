@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+#btni{
+    margin-top: 70px;
+    width: 200px;
+    background: #B24BE2;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'Paytone One', sans-serif;
+    color: #ffff;
+    font-size: 30px;
+    box-shadow: 1px 1px  #469bb8;
+    text-shadow: 1px 1px #888888;
+}
+
+#btn{
+    margin-top: 30px;
+    width: 150px;
+    background: #FFC107;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'Paytone One', sans-serif;
+    color: #ffff;
+    font-size: 20px;
+    box-shadow: 1px 1px  #469bb8;
+    text-shadow: 1px 1px #888888;
+}
+
+#btn:hover{
+    box-shadow: 4px 4px #469bb8;
+}
+#btni:hover{
+    box-shadow: 4px 4px #469bb8;
+}
+
+#btnRot{
+    width: 200px;
+    background: #FFC107;
+    color: #ffff;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 30px;
+    border-radius: 15px;
+    -ms-transform: rotate(20deg);
+    transform: rotate(-10deg);
+    box-sizing: border-box; 
+    box-shadow: 1px 3px #888888; 
+}
+#btnRot2{
+    width: 200px;
+    background: #80D02F;
+    color: #ffff;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 30px;
+    border-radius: 15px;
+    -ms-transform: rotate(20deg);
+    transform: rotate(10deg);      
+    box-sizing: border-box;
+    box-shadow: 1px 3px #888888;
+
+}
+#BtnPlay{
+    width: 200px;
+    margin:10px;
+    background:  #B24BE2;
+    padding: 5vh;
+    border-radius: 50vh;
+    border: 10px solid #edfff0;
+    box-sizing: border-box;
+    outline: none; 
+    box-shadow: 1px 3px #888888;
+}
+
+@media screen and (max-width: 1920px){
+    #btn{
+        width: 250px;
+        font-size: 25px;
+        padding: 20px;
+        margin-top: 15px;
+    }
+    #btni{
+        margin-top: 100px;
+        width: 230px;
+        padding: 20px;
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width: 1440px){
+    #btn{
+        width: 250px;
+        font-size: 25px;
+        padding: 20px;
+        margin-top: 15px;
+    }
+    #btni{
+        margin-top: 5px;
+        width: 230px;
+        padding: 20px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    #btn{
+        width: 230px;
+        font-size: 15px;
+        padding: 20px;
+        margin-top: 25px;
+    }
+    #btni{
+        margin-top: 100px;
+        width: 230px;
+        padding: 20px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    #btn{
+        width: 200px;
+        font-size: 15px;
+        padding: 20px;
+        margin-top: 25px;
+    }
+    #btni{
+        margin-top: 40px;
+        width: 200px;
+        padding: 20px;
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width: 1280px){
+    #btn{
+        width: 150px;
+        font-size: 15px;
+        padding: 20px;
+        margin-top: 15px;
+    }
+    #btni{
+        margin-top: 5px;
+        width: 180px;
+        padding: 20px;
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 1152px){
+    #btn{
+        width: 130px;
+        font-size: 20px;
+        padding: 15px;
+        margin-top: 15px;
+    }
+    #btni{
+        margin-top: 5px;
+        width: 130px;
+        padding: 15px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    #btn{
+        width: 180px;
+        font-size: 18px;
+        padding: 10px;
+        margin-top: 15px;
+    }
+    #btni{
+        margin-top: 5px;
+        width: 180px;
+        padding: 10px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 832px){
+    #btn{
+        width: 130px;
+        font-size: 15px;
+        padding: 10px;
+        margin-top: 15px;
+    }
+    #btni{
+        margin-top: 5px;
+        width: 130px;
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #btn{
+        width: 180px;
+        font-size: 18px;
+        padding: 10px;
+        margin-top: 15px;
+    }
+    #btni{
+        margin-top: 60px;
+        width: 180px;
+        padding: 10px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    #btn{
+        display: flex;
+    }
+    #btni{
+        width: 140px;
+        font-size: 24px;
+        margin-top: 150px;
+    }
+}

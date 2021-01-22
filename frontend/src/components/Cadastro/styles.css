@@ -1,0 +1,156 @@
+#InpC {
+    background: #5FD8FF;
+    width: 500px;
+    height: 50px;
+    font-family: 'Paytone One', sans-serif;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    border: none;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445)
+}
+
+#login-margem {
+    margin-left: 200px;
+}
+
+#Cadastro{
+    font-family: 'Paytone One', sans-serif;
+    color: white;
+    font-size: 50px;
+    width: 100vw;
+    text-align: center;
+    height: 800px;
+    background: #FF8A00;
+    border-radius: 40px 40px 0 0;
+    border: none;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445)
+}
+#btnC{
+    margin-top: 30px;
+    width: 330px;
+    background: #B24BE2;
+    color: #ffff;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 30px;
+    border-radius: 15px;
+    padding-left: 2vh;
+    box-sizing: border-box;
+     
+}
+#btnC:hover{
+    box-shadow: 5px 10px #c26801;
+}
+
+@media (max-width: 1440px){
+    #Cadastro{
+        width: 700px;
+    }
+    #InpC{
+        width: 450px;
+    }
+    #btnC{
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 1920px){
+    #titulo{
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    #Cadastro{
+       margin-top: 130px;
+       width: 630px;
+   }
+   #InpC{
+    text-align: center;
+    width: 400px;
+   }
+}
+
+
+@media screen and (max-width: 1680px){
+    #titulo{
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    #Cadastro{
+       margin-top: 130px;
+       width: 630px;
+   }
+   #InpC{
+    text-align: center;
+    width: 400px;
+   }
+}
+
+@media screen and (max-width: 1600px){
+    #titulo{
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    #Cadastro{
+       margin-top: 50px;
+       width: 500px;
+   }
+   #InpC{
+    text-align: center;
+    width: 400px;
+   }
+}
+
+@media screen and (max-width: 1280px){
+    #titulo{
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    #Cadastro{
+        
+        margin-top: 10px;
+       width: 500px;
+   }
+   #InpC{
+    text-align: center;
+    width: 400px;
+   }
+}
+
+
+@media (max-width: 1024px){
+    #Cadastro{
+        width: 600px;
+    }
+    #InpC{
+        width: 450px;
+    }
+    #btnC{
+        width: 230px;
+    }
+}
+
+
+@media (max-width: 768px){
+    #Cadastro{
+        width: 500px;
+    }
+    #InpC{
+        width: 350px;
+    }
+    #btnC{
+        width: 230px;
+    }
+}
+
+@media (max-width: 525px){
+    #Cadastro{
+        width: 450px;
+    }
+    #InpC{
+        width: 250px;
+    }
+    #btnC{
+        width: 230px;
+    }
+}
