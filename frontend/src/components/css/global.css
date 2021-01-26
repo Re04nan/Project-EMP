@@ -1,0 +1,10 @@
+#cor-de-fundo { 
+    background-color: #ffffff;
+    background-image: url("../../assets/images/fundo.svg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+

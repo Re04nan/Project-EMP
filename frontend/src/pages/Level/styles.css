@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Paytone One', sans-serif;
+}
+.temp1{
+    background-color: orchid;
+    width: 100vw;
+    height: 7vh;
+}
+.temp2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100vw;
+    height: 83vh;
+    background-color: #ffffff;
+    background-image: url("../../assets/images/fundo.svg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.temp3{
+    background-color: palegreen;
+    width: 100vw;
+    height: 10vh;
+}
+#caixaProgresso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #B24BE2;
+    border-radius: 40px 40px 0 0;
+    width: 60vw;
+    height: 80vh;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
+#tituloP{
+    margin-top: 15px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+    font-size: 2.5em;
+    text-align: center;
+}
+#caixaProgresso span p{
+    margin-top: 15px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+    width: 50vw;
+    font-size: 1.6em;
+    text-align: left;
+}
+#caixaProgresso div{
+    position: fixed;
+    bottom: 40vh;
+    left: 25vw;
+    font-size: 1.6em;
+    width: 24vw;
+    text-align: left;
+}
+#colmeiaLevel{
+    position: fixed;
+    bottom: 10vh;
+    right: 20vw;
+    width: 38vw;
+    height: 74vh;
+}
+#colmeiaLevel img{
+    width: 100%;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.445));
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.445));
+}
+.btnGroup{
+    position: fixed;
+    top: 10vh;
+    right: 4vw;
+}
+#btnSair{
+    background-color: #FFC107;
+    color: white;
+    width: 5vw;
+    font-size: 1.8em;
+    border-radius: 15px;
+    margin: 4px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
+#btnSair:hover{
+    -webkit-filter: drop-shadow(2.5px 2.5px 2.5px rgba(0, 0, 0, 0.445));
+    filter: drop-shadow(2.5px 2.5px 2.5px rgba(0, 0, 0, 0.445));
+}
+#btnApagar{
+    background-color: red;
+    color: white;
+    width: 5vw;
+    font-size: 1.8em;
+    border-radius: 15px;
+    margin: 4px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
+#btnApagar:hover{
+    -webkit-filter: drop-shadow(2.5px 2.5px 2.5px rgba(0, 0, 0, 0.445));
+    filter: drop-shadow(2.5px 2.5px 2.5px rgba(0, 0, 0, 0.445));
+}
+.caixaBee{
+    position: fixed;
+    bottom: 1vh;
+    left: 5vw;
+    width: 20vw;
+}
+.caixaBee img{
+    width: 100%;
+}
+@media (max-width: 375px) and (max-height: 812px){
+    #caixaProgresso{
+        width: 80vw;
+    }
+    .btnGroup{
+        position: fixed;
+        top: 15vh;
+        right: 3vw;
+    }
+    #btnSair{
+        font-size: 1.4em;
+        display: block;
+        width: 15vw;
+    }
+    #btnSair:hover{
+        -webkit-filter: drop-shadow(1.5px 1.5px 1.5px rgba(0, 0, 0, 0.445));
+        filter: drop-shadow(1.5px 1.5px 1.5px rgba(0, 0, 0, 0.445));
+    }
+    #btnApagar{
+        font-size: 1.4em;
+        display: block;
+        width: 15vw;
+    }
+    #btnApagar:hover{
+        -webkit-filter: drop-shadow(1.5px 1.5px 1.5px rgba(0, 0, 0, 0.445));
+        filter: drop-shadow(1.5px 1.5px 1.5px rgba(0, 0, 0, 0.445));
+    }
+    #tituloP{
+        margin-top: 80px;
+        font-size: 2em;
+        text-shadow: 2.5px 2.5px 2.5px rgba(0, 0, 0, 0.445);
+    }
+    #caixaProgresso span p{
+        margin-top: 40px;
+        width: 65vw;
+        font-size: 1em;
+    }
+    #caixaProgresso div{
+        font-size: 1em;
+        top: 42vh;
+        width: 48vw;
+        height: 10vh;
+        left: 18vw;
+    }
+    #colmeiaLevel{
+        top: 52vh;
+        right: 12vw;
+        width: 70vw;
+        height: 74vh;
+    }
+}
+@media (max-width: 1280px) and (max-height: 800px){
+    #tituloP{
+        margin: 20px;
+    }
+    #colmeiaLevel{
+        top: 20vh;   
+    }
+}

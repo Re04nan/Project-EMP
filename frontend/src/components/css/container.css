@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+/*
+#FFC107;amarelo
+#FF8A00;laranja
+ #B24BE2;roxo;
+ font-family: 'Paytone One', sans-serif;
+*/
+
+::-webkit-input-placeholder {
+    color: white;
+    font-family: 'Paytone One', sans-serif;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.445);
+    text-align:center;
+    font-size: 25px
+    }
+
+#conte1{
+    padding-top: 30px;
+    width: 450px;
+    height: 700px;
+    background: #FFC107;
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;
+    color: white;
+    font-size: 50px;
+    border-radius: 40px 40px 0 0;
+    margin-top: 50px;
+     
+}
+
+#container-titulo {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
+
+#titulo {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
+
+#botaoplay {
+    width:100px;
+    height: 100px;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-right: 0;
+    background-color: #B24BE2;
+    outline: none;
+    color: white;
+}
+
+#clique-aqui {
+    font-size: 20px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+
+#aqui:hover {
+    color: #B24BE2;
+    cursor: pointer;
+}
+
+#InpL{
+    background: #5FD8FF;;
+    width: 300px;
+    height: 50px;
+    font-family: 'Paytone One', sans-serif;
+    border-radius: 5px;
+    outline: none;
+    text-align: center; 
+    font-size: 18px;
+    color: white;
+    border: none;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
+
+#manter-conectado {
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
+
+input[type=checkbox] {
+    margin-top: 15px;
+    width: 20px;
+    height: 20px;
+    outline: none;
+    margin-right: 10px;
+}
+
+
+#Ajustes{
+    padding-top: 30px;
+    font-family: 'Paytone One', sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+    width: 800px;
+    height: 600px;
+    background: #FF16A2;
+    border-radius: 60px 60px 0 0;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
+
+#ajustes-texto {
+    padding-top: 30px;
+    font-size: 40px;
+    padding-left: 15px;
+    color: white;
+    
+}
+
+#ajustes-icon1 {
+    padding-top: 45px;
+    font-size: 35px;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
+
+
+
+#opcao {
+    width: auto;
+    font-size: 30px;
+    color: #5FD8FF;
+    border-width: 2px;
+    border-color: #cfcfcf;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.445);
+}
+
+#opcao:hover {
+    color: #FFC107;
+}
+
+#sma {
+    font-size: small; 
+}
+
+#big {
+    font-size:45px
+ }
+
+#espaçamento-opcoes {
+    margin-top: 10px;
+}
+
+
+#InpC {
+    background: #5FD8FF;
+    width: 500px;
+    height: 50px;
+    font-family: 'Paytone One', sans-serif;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    border: none;
+}
+
+#login-margem {
+    margin-left: 200px;
+}
+
+/* #Cadastro{
+    font-family: 'Paytone One', sans-serif;
+    color: white;
+    font-size: 50px;
+    width: 800px;
+    height: 690px;
+    background: #FF8A00;
+    border-radius: 60px 60px 0 0;
+    border: none;
+    margin-top: 50px;
+} */
+/* #btnC{
+    margin-top: 30px;
+    width: 230px;
+    background: #B24BE2;
+    color: #ffff;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
+    border-radius: 15px;
+    padding-left: 2vh;
+    box-sizing: border-box;
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.445);;    
+} */
+
+#btnE{
+    margin-top: 30px;
+    width: 100px;
+    background: red;
+    color: #ffff;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.445);;    
+}
+#btnE:hover{
+    box-shadow: 4px 4px #469bb8;
+}
+
+@media (max-width: 1440px){
+    #Cadastro{
+        width: 450px;
+        font-size: 45px;
+    }
+    #InpC{
+        width: 288px;
+        font-size: 16px;
+    }
+    #titulo{
+        font-size: 45px;
+    }
+    #btnC{
+        width: 175px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1024px){
+    #Cadastro{
+        width: 400px;
+        font-size: 40px;
+    }
+    #InpC{
+        width: 244px;
+        font-size: 16px;
+    }
+    #titulo{
+        font-size: 40px;
+    }
+    #btnC{
+        width: 155px;
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width: 768px){
+    #Cadastro{
+        width: 350px;
+        font-size: 35px;
+    }
+    #InpC{
+        width: 233px;
+        font-size: 14px;
+    }
+    #titulo{
+        font-size: 35px;
+    }
+    #btnC{
+        width: 145px;
+        font-size: 25px;
+    }
+}
