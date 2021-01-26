@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Paytone One', sans-serif;
+    color: white;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+
+#temporario1{
+    width: 100vw;
+    height: 7vh;
+    background-color: rgb(153, 0, 255);
+}
+#temporario2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100vw;
+    height: 83vh;
+    background-color: rgb(116, 193, 255);
+
+}
+#temporario3{
+    width: 100vw;
+    height: 10vh;
+    background-color: greenyellow;
+}
+#caixaAjustes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 23px;
+    border-radius: 60px 60px 0 0;
+    background-color: #FF16A2;
+    width: 45vw;
+    height: 75vh;
+}
+.opcao{
+    font-size: 1em;
+    margin-left: 1em;
+}
+.ajustes-texto{
+    margin: 1vw;
+}
+.opcao:hover {
+    color: #FFC107;
+}
+.caixaBee{
+    position: fixed;
+    bottom: 1vh;
+    left: 5vw;
+    width: 20vw;
+}
+.caixaBee img{
+    width: 100%;
+}
+
+@media screen and (max-device-width: 1280px){
+    #caixaAjustes{
+        width: 60vw;
+    }
+}
+
+@media screen and (max-device-width: 375px){
+    #caixaAjustes{
+        width: 70vw;
+        height: 80vh;
+    }
+    .opcao{
+        width: 60vw;
+        margin-top: 2vw;
+    }
+    .caixaBee{
+        display: none;
+    }
+    .ajustes-texto{
+        margin: 2vw;
+    }
+}
+
+
+/*
+Móvel: 360 x 640 /
+
+Móvel: 375 x 667 /
+
+Móvel: 360 x 720
+
+iPhone X: 375 x 812
+
+Pixel 2: 411 x 731
+
+Tabuleiro: 768 x 1024
+
+Portátil: 1366 x 768
+*/
