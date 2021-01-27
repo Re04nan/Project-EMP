@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Paytone One', sans-serif;
+}
+
+#container-login {
+    width: 100vw;
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#container-login .section-login {
+    background-color:#FFC107;
+    width: 25vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px 40px 0 0;
+}
+
+#container-login .section-login .box-login {
+    padding-bottom: 50px;
+    width: 25vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-login .section-login .box-login .form-title {
+    padding-bottom: 20px;
+    font-size: 8vh;
+    color: white;
+    opacity: 90%;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+
+#container-login .section-login .box-login .input-login {
+    height: 6vh;
+    width: 20vw;
+    display: block;
+    margin: 13px 0 13px 0;
+    padding-left: 6px;
+    background-color:#5FD8FF;
+    color: white;
+    opacity: 90%;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+}
+
+#container-login .section-login .box-login .input-login::-webkit-input-placeholder {
+    font-size: 1.2rem;
+    color: white;
+    
+}
+
+#container-login .section-login .box-login .box-mark label {
+    color: white;
+    opacity: 90%;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.445);
+    font-size: 1.4em;
+}
+
+#container-login .section-login .box-login .box-btn-play {
+    padding: 20px;
+}
+
+#container-login .section-login .box-login .box-btn-play button {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color:#B24BE2;
+    border: none;
+    outline: 0;
+    transition: ease 0.5s;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+
+#container-login .section-login .box-login .box-btn-play button:hover {
+    width: 200px;
+    height: 80px;
+    border-radius: 20%;
+}
+
+#container-login .section-login .box-login .box-btn-play button i {
+    color: white;
+    opacity: 90%;
+    font-size: 30px;
+}
+
+#container-login .section-login .box-login .link {
+    font-size: 1.2rem;
+    color: white;
+    opacity: 90%;
+    transition: ease 0.2s;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.445);
+} 
+
+#container-login .section-login .box-login .link:hover {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+#container-login .section-login .box-login #alert {
+    text-align: center;
+    border-radius: 10%;
+}
+
+#container-login .box-personage {
+    position: fixed;
+    bottom: 1vh;
+    left: 5vw;
+    width: 20vw;
+    z-index: 8;
+} 
+
+#container-login .box-personage .personage {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 375px) {
+    #container-login .section-login {
+        width: 70vw;
+        height: 75vh;
+    }
+
+    .form-title {
+        margin-top: -8vh;
+    }
+
+    #container-login .section-login .box-login {
+        margin-top: 8vh;
+        width: 60vw;
+    }
+    #container-login .section-login .box-login .input-login {
+        width: 55vw;
+    }
+    .box-personage img {
+        display: none;
+    }
+}

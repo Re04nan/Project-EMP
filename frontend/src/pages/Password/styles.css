@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.container-alter {
+    width: 100vw;
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.container-alter .section-alter {
+    background-color:#FFC107;
+    width: 25vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px 40px 0 0;
+}
+
+.container-alter .section-alter .box-alter {
+    padding-bottom: 80px;
+    width: 25vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-alter .section-alter .box-alter .form-title {
+    text-align: center;
+    font-size: 6vh;
+    color: white;
+    opacity: 90%;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.445);
+}
+
+.container-alter .section-alter .box-alter .input-alter {
+    
+    height: 6vh;
+    width: 20vw;
+    display: block;
+    margin: 5vh 5vh 0;
+    padding-left: 6px;
+    background-color:#5FD8FF;
+    color: white;
+    opacity: 90%;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+}
+
+.container-alter .section-alter .box-alter .box-btn .btn-alter {
+    margin-top: 10vh;
+    width: 20vw;
+    height: 7vh;
+    background: #B24BE2;
+    color: #ffff;
+    border: 0;
+    outline: 0;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.445);
+    transition: ease 0.2s;
+}
+
+.container-alter .section-alter .box-alter .box-btn .btn-alter:hover {
+    box-shadow: 5px 10px rgb(0, 0, 0, 0.300);
+}
+
+.container-alter .section-alter .box-alter .input-alter::-webkit-input-placeholder {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.container-alter .box-personage {
+    position: fixed;
+    bottom: 1vh;
+    left: 5vw;
+    width: 20vw;
+    z-index: 9;
+} 
+
+.container-alter .box-personage .personage {
+    width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+    header .header {
+        max-width: 100vw;
+    }
+    header .header .nav-link {
+        display: none;
+    }
+    .container-alter .section-alter {
+        width: 70vw;
+        height: 75vh;
+    }
+    .container-alter .section-alter .box-alter {
+        width: 70vw;
+    }
+    .container-alter .section-alter .box-alter .form-title {
+        font-size: 5vh;
+        text-align: center;
+    }
+    .container-alter .section-alter .box-alter .input-alter {
+        width: 55vw;
+    }
+    .container-alter .section-alter .box-alter .box-btn .btn-alter {
+        width: 55vw;
+        height: 6vh;
+        font-size: 1.5rem;
+    }
+    .box-personage img {
+        display: none;
+    }
+}
