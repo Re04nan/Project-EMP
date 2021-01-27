@@ -39,3 +39,4 @@
 ![Badge](https://img.shields.io/static/v1?labelColor=gray&label&message=Framework%20JQuery&color=gray&style=for-the-badge&logo=JQuery)
 ![Badge](https://img.shields.io/static/v1?labelColor=purple&label&message=Framework%20Bootstrap&color=purple&style=for-the-badge&logo=Bootstrap)
 ![Badge](https://img.shields.io/static/v1?labelColor=black&label&message=CDN%20Font%20Awesome&color=yellow&style=for-the-badge&logo=Fontawesome)
+![Badge](https://img.shields.io/static/v1?labelColor=black&label&message=React%20JS&color=black&style=for-the-badge&logo=React)
