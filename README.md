@@ -23,6 +23,7 @@
 ## Ferramentas utilizadas:
 
 - [x] Trello - Gerênciamento de etapas do projeto.
+- [x] Notion - Anotações e procedimentos.
 - [x] Canvas - Elaboração de telas e rascunhos sobre o tema abordado.
 - [x] Miro - Criação do modelo ERP para o banco de dados.
 - [x] Github - Versionamento do código e projeto em grupo.
@@ -36,7 +37,9 @@
 ## Especificações Técnicas: 
 
 ![Badge](https://img.shields.io/static/v1?labelColor=black&label&message=Database%20MySQL&color=blue&style=for-the-badge&logo=MySQL)
-![Badge](https://img.shields.io/static/v1?labelColor=gray&label&message=Framework%20JQuery&color=gray&style=for-the-badge&logo=JQuery)
 ![Badge](https://img.shields.io/static/v1?labelColor=purple&label&message=Framework%20Bootstrap&color=purple&style=for-the-badge&logo=Bootstrap)
 ![Badge](https://img.shields.io/static/v1?labelColor=black&label&message=CDN%20Font%20Awesome&color=yellow&style=for-the-badge&logo=Fontawesome)
 ![Badge](https://img.shields.io/static/v1?labelColor=black&label&message=React%20JS&color=black&style=for-the-badge&logo=React)
+![Badge](https://img.shields.io/static/v1?labelColor=gray&label&message=Framework%20JQuery&color=gray&style=for-the-badge&logo=JQuery)
+![Badge](https://img.shields.io/static/v1?labelColor=black&label&message=Axios&color=white&style=for-the-badge&logo=Axios)
+![Badge](https://img.shields.io/static/v1?labelColor=black&label&message=React%20Router&color=green&style=for-the-badge&logo=React-Router)
