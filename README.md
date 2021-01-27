@@ -2,7 +2,7 @@
  [<img src="https://img.shields.io/badge/-Em%20desenvolvimento-yellow">](#)
  
 <div align="center">
-<img src ="https://github.com/Re04nan/Project-EMP/blob/master/frontend/src/assets/images/eume.png" alt="Logo Eu Me Protejo" title="logo EMP">
+<img src ="https://github.com/Re04nan/Project-EMP/blob/master/frontend/src/assets/images/eumeprotejo.png"  width="200px"  alt="Logo Eu Me Protejo" title="logo EMP">
 </div>
 <br/>
 <p align="justify" font-size="22px"> 
