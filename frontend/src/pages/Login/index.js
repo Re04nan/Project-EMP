@@ -66,13 +66,13 @@ const Login = () =>{
                         <label className="form-title">LOGIN</label>
                         <input onChange={controleLogin} type="text" className="input-login" name="nomeLog" placeholder="NOME DE USUÁRIO" />
                         <input onChange={controleLogin} type="password" className="input-login" name="senhaLog" placeholder="SENHA" />
-                        <Link to="/AlterarSenha" className="link">ESQUECEU A SENHA?</Link>
+                        <Link to="/Password" className="link">ESQUECEU A SENHA?</Link>
                         <div className="box-btn-play">
                             <button className="btn-play">
                                 <i class="fas fa-play"/>
                             </button>
                         </div> 
-                        <Link to="/Cadastro" className="link">NÃO TEM CADASTRO?</Link>
+                        <Link to="/Register" className="link">NÃO TEM CADASTRO?</Link>
                         { 
                             msg === false && <div id="alert" className="alert alert-danger mx-auto mt-4 w-75" role="alert"> Erro ao fazer login </div>
                         }
