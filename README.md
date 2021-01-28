@@ -6,7 +6,7 @@
 </div>
 <br/>
 <p align="justify" font-size="22px"> 
- <b>EU ME PROTEJO | EMP</b> é um projeto realizado em grupo em parceria ao <a href="https://www.eumeprotejo.com/">Eu Me Protejo</a>, 
+ <b>EU ME PROTEJO | EMP</b> é um projeto realizado em grupo em parceria ao <a href="https://www.eumeprotejo.com/" target="_blank">Eu Me Protejo</a>, 
  uma organização sem fins lucrativo que defende a importância da Educação Sexual para crianças e com a mesma causa abraçamos a ideia
  e o desafio de criar uma abordagem totalmente diferenciada e voltada a esse público gamificando a cartilha oficial. 
 </>
