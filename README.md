@@ -29,7 +29,7 @@
 - [x] Github - Versionamento do código e projeto em grupo.
 - [x] Zoom - Vídeo conferência em grupo.
 - [x] Google Meet- Vídeo conferência em grupo.
-- [x] Google Fonts - Fonte utilizada: Reboto.
+- [x] Google Fonts - Fonte utilizada: Paytone One.
 - [x] VsCode - IDE utilizada para programação dos códigos.
 - [x] Wamp/Xamp - Testes e desenvolvimento em servidor local.
 - [x] AWS Cloud - Hospedagem da plataforma.
